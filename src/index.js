@@ -6,7 +6,7 @@ module.exports = function toReadable(number) {
     let inputNumb = String(number);
 
     if (inputNumb.length == 1) {
-        return forOnenumber[inputNumb];
+        return forOnenumber[inputNumb[0]];
 
     } else if (inputNumb.length == 2) {
         if (inputNumb > 10 && inputNumb < 20) {
